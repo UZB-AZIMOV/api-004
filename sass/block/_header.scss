@@ -1,0 +1,111 @@
+.header{
+    background-color: 
+    #F6EBDA;
+  }
+.navbar{
+    padding:20px 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__collection{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+    &__item{
+        list-style: none;
+        font-size: 20px;
+        font-weight: 500;
+          color: rgb(18, 17, 17);
+        transition: 1s;
+        &:hover{
+            color:orange;
+            cursor: pointer;
+        }
+    }
+    &__menu{
+        display: none;
+        &:hover{
+            color: red;
+        }
+    }
+    &__btn{
+        font-size: 20px;
+        font-weight: bolder;
+        border: none;
+        transition: .5s;
+        border-radius: 20px;
+      
+    }
+    &__input{
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 1px  0 1px 10px;
+    }
+}
+
+.inp{
+    background-color: white;
+padding: 5px 15px;
+border-radius: 25px;    
+}
+.fa-cart-shopping{
+    color:black;
+}
+.navbar__btn{
+    background-color:   #F6EBDA;
+}
+.navbar__btns{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+@media ( max-width:890px){
+    .navbar__btns{
+display: none;
+    }
+    
+}
+
+
+@media (
+    max-width:755px) {
+    .navbar{
+       
+        &__collection{
+            display: none;
+        }
+        
+        &__menu{
+            display: block;
+           &__:hover{
+            color: red;
+           } 
+        }
+  
+    }
+    .navbar__btns{
+    display: none;
+    }
+}
+
+@media ( max-width:605px){
+   
+    
+}
+
+
+
+

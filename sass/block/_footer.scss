@@ -1,0 +1,81 @@
+.footer__wrapper{
+    width: 100%;
+    background: url(../../images/unsplash_ftA71vetxuo.png)no-repeat center/cover;
+    padding-bottom: 133px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.footer__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 133px;
+}
+.buy{
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer__desk{
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 40px;
+}
+.footer__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 400px;
+    height: 54px;
+    border-radius: 42px;
+    background: #fff;
+}
+.button{
+    padding: 11.5px 32px;
+    border-radius: 33px;
+    background: #2F2105;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-right: 5px;
+}
+.input{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+@media (max-width:1100px) {
+
+    .footer__wrapper{
+        margin-top: 50px;
+    }
+}
+@media (max-width:796px) {
+
+  
+    .footer__input{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 380px;
+        height:auto;
+        padding: 5px;
+        border-radius: 42px;
+        background: #fff;
+    }
+    .button{
+        padding: 10px 30px;
+        border-radius: 33px;
+        background: #2F2105;
+        color: #fff;
+        font-size: 14px;
+        border: none;
+        margin-right: 5px;
+    }
+}
