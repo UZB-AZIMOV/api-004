@@ -13,6 +13,9 @@
     justify-content: center;
     padding-top: 140px;
 }
+.b{
+    display: none;
+}
 .buy{
     padding: 20px 50px;
     font-size: 20px;
@@ -74,8 +77,9 @@
         margin-bottom: 10px;
     }
     .button{
-        width: 70%;
-        margin: 10px 0;
+    display: none;
+        width: 30%;
+        margin: 20px 0;
         padding: 10px;
         border-radius: 33px;
         background: #2F2105;
@@ -85,5 +89,8 @@
         margin-right: 5px;
         transition: 2s;
         transform: scale(1.1);
+    }
+    .b{
+        display: block;
     }
 }
