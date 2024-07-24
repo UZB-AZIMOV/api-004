@@ -34,7 +34,9 @@ function createContent(data) {
       <p>${data.id}</p>
   </div>
     </div>
-      <button class ="now">Buy now</button>
+ 
+   <a href="/royxar.html"> <button class ="now">Buy</button>
+   </a>
       
       </div>
     
