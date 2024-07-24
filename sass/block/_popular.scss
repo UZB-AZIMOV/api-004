@@ -12,6 +12,11 @@
     flex-wrap: wrap;
     gap: 50px;
 }
+.pro{
+    font-size: 25px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .popular__content{
     position: absolute;
     position: relative;
@@ -55,6 +60,22 @@
     display: flex;
     gap: 20px;
 }
+.rating{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.id{
+    font-size: 18px;
+    font-weight: 600;
+}
+.price{
+    font-size: 20px;
+    padding: 5px 0;
+}
+.fa-star{
+    color: gold;
+}
 .popular__i{
     border: none;
     background: #FF902B;
@@ -67,6 +88,7 @@
     .popular__wrapper{
         display: flex;
         flex-wrap: wrap;
+        padding: 0 30px;
     }
     .activ{
         position: absolute;

@@ -20,7 +20,7 @@ function createContent(data) {
      <img width ="400" src= ${data.images[0]} alt="">
      </div>
      ${data.images.map((item) => (
-        ` <img width= "80px" src=${item} alt=""></img>`
+        ` <img width="80" class="littel"  src=${item} alt=""></img>`
     ))
         }
      </div>
@@ -28,7 +28,7 @@ function createContent(data) {
       <h1 class ="title">${data.title}</h1>
       <p class ="rect">${data.description}</p>
                <div class="meta">
-      <img src="${data.meta.qrCode}" alt="">
+      <img class="code" src="${data.meta.qrCode}" alt="foto">
       <div class="creat">
       <p>${data.meta.createdAt}</p>
       <p>${data.id}</p>

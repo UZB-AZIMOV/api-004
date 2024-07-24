@@ -7,11 +7,11 @@
 }
 .footer__box{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
     justify-content: center;
-    padding-top: 133px;
+    padding-top: 140px;
 }
 .buy{
     padding: 20px 50px;
@@ -25,17 +25,17 @@
     padding: 0 40px;
 }
 .footer__input{
+    margin-top: 50px;
     display: flex;
+    padding: 5px;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    width: 400px;
-    height: 54px;
+    width: 30%;
     border-radius: 42px;
     background: #fff;
 }
 .button{
-    padding: 11.5px 32px;
+    padding: 10px 20px;
     border-radius: 33px;
     background: #2F2105;
     color: #fff;
@@ -60,22 +60,23 @@
   
     .footer__input{
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        gap: 10px;
-        width: 380px;
+        width: 90%;
+        gap: 0;
         height:auto;
         padding: 5px;
         border-radius: 42px;
         background: #fff;
     }
     .button{
-        padding: 10px 30px;
+        padding: 10px 20px;
         border-radius: 33px;
         background: #2F2105;
         color: #fff;
         font-size: 14px;
         border: none;
         margin-right: 5px;
+        transition: 2s;
+        transform: scale(1.1);
     }
 }

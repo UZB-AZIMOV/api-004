@@ -43,8 +43,11 @@ function createCard(data) {
         cardItem.innerHTML = `
         <div class="icon"><i class="fa-solid fa-heart"></i></div>
         <img class= "card__image" src=${product.images[0]} alt="">
-        <h3>${product.title}</h3>
+        <p class="pro">${product.title}</p>
         <p class= "desck" title ="${product.description}">${product.description}</p>
+         <p class="rating"> rating : <i class="fa-solid fa-star"></i> ${product.  rating}</p>
+            <p class="id">Product Id : ${product.id}</p>
+        <mark class="price">Price : ${product.price}</mark>
    
   </div>
         <button class= "buy">Buy</button>
