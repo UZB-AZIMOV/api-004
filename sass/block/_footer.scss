@@ -30,12 +30,12 @@
     padding: 5px;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
+    width: 70;
     border-radius: 42px;
     background: #fff;
 }
 .button{
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 33px;
     background: #2F2105;
     color: #fff;
@@ -59,17 +59,24 @@
 
   
     .footer__input{
+        flex-direction: column;
+        font: 30px;
         display: flex;
         justify-content: space-between;
-        width: 90%;
-        gap: 0;
+        width: 300px;
         height:auto;
         padding: 5px;
         border-radius: 42px;
         background: #fff;
     }
+    .input{
+        width: 80%;
+        margin-bottom: 10px;
+    }
     .button{
-        padding: 10px 20px;
+        width: 70%;
+        margin: 10px 0;
+        padding: 10px;
         border-radius: 33px;
         background: #2F2105;
         color: #fff;
